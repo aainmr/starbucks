@@ -135,10 +135,11 @@ button:hover{
   }
 
   .imgBox img {
-    max-width: 250px;
-    height: auto;
-    align-items: center;
-  }
+max-width: 250px;
+  margin: 0 auto;
+  display: block;
+  position: static;
+}
 
   .thumb {
     flex-wrap: wrap;
