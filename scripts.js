@@ -1,9 +1,3 @@
-let circle = document.querySelector(".circle")
-
-function changeColor(color){
-circle.style.background = color
-}
-
 let circle = document.querySelector(".circle");
 let mainImg = document.querySelector(".starbucks");
 let buttons = document.querySelectorAll(".menu_btn");
