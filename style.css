@@ -81,6 +81,11 @@ button:hover{
     width: 340px;
 }
 @media screen and (max-width: 768px) {
+    
+    body {
+  overflow-x: hidden;
+}
+
   body {
     padding: 20px;
     text-align: center;
