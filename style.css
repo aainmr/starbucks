@@ -80,3 +80,28 @@ button:hover{
 .starbucks{
     width: 340px;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .text-box h2 {
+    font-size: 28px;
+  }
+
+  .text-box p {
+    font-size: 16px;
+  }
+
+  .text-box a {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .img-box img {
+    width: 250px;
+    margin-top: 20px;
+  }
+}
