@@ -132,7 +132,10 @@ button:hover{
   .textBox p {
     font-size: 16px;
   }
-
+.imgBox {
+    margin-left: -40px;
+}
+    
   .imgBox img {
       width: fit-content;
   margin: 0 auto;
