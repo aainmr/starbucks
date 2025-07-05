@@ -5,10 +5,7 @@ let buttons = document.querySelectorAll(".menu_btn");
 function changeColor(color) {
   circle.style.background = color;
 }
-
-buttons.forEach(button => {
-  button.addEventListener("click", () => {
-    const imgPath = button.getAttribute("data-img");
-    mainImg.src = imgPath;
-  });
-});
+function changeTheme(imgPath, color) {
+  document.querySelector('.starbucks').src = imgPath;
+  document.querySelector('.circle').style.background = color;
+}

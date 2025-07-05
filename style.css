@@ -62,6 +62,8 @@ button:hover{
     width: 60px;
     cursor: pointer;
     transition: 0.5s;
+    display: flex;
+    flex-direction: row;
 }
 .menu_btn:hover{
     transform: translateY(-30px)
