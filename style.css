@@ -5,12 +5,7 @@ box-sizing:border-box;
 font-family: "Poppins", sans-serif;
 }
 
-html, body {
-  overflow-x: hidden !important;
-}
-
 body{
-  
     padding-top: 20px;
     padding-right: 100px;
     padding-left: 100px;
