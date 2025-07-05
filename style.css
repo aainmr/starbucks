@@ -87,7 +87,7 @@ button:hover{
 }
 
   body {
-  width: fit-content;
+  width: revert;
     text-align: center;
   }
 
