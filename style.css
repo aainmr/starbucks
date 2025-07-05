@@ -88,7 +88,9 @@ button:hover{
 }
 @media screen and (max-width: 768px) {
 
-
+  html, body {
+  overflow-x: hidden !important;
+}
   body {
     overflow-x: hidden;
     padding: 20px;
