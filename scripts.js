@@ -1,8 +1,7 @@
-let circle = document.querySelector(".circle");
-let mainImg = document.querySelector(".starbucks");
-let buttons = document.querySelectorAll(".menu_btn");
+ function changeCup(color, imagePath) {
+    // Muda a cor do círculo
+    document.querySelector('.circle').style.background = color;
 
-function changeColor(color) {
-  document.querySelector('.circle').style.background = color;
-  document.querySelector('.starbucks').src = 'img/img1.png'; // ou img2.png, etc.
-}
+    // Muda a imagem do copo principal
+    document.getElementById('mainCup').src = imagePath;
+  }
