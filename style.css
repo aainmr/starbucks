@@ -83,7 +83,7 @@ button:hover{
 @media screen and (max-width: 768px) {
 
     body {
-  overflow-x: hidden;
+  overflow-x: hidden; 
 }
 
   body {
@@ -160,5 +160,7 @@ max-width: 250px;
   .circle {
     display: none;
  }
- 
+ .starbucks{
+  margin: auto;
+ }
 }
