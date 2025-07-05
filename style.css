@@ -82,12 +82,10 @@ button:hover{
 }
 @media screen and (max-width: 768px) {
 
-    body {
-  overflow-x: hidden; 
-}
 
   body {
-  width: revert;
+    overflow-x: hidden;
+    padding: 20px;
     text-align: center;
   }
 
